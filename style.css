@@ -183,9 +183,73 @@ nav {
   left: 33%;
 }
 
+.projects {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  top: 270%;
+  height: 80%;
+}
+
+.details {
+  position: absolute;
+  width: 100%;
+  top: 320%;
+}
+
+.projectName {
+  position: relative;
+  left: 38%;
+  font-size: 35px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.mini1,
+.mini2 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 58%;
+  top: 25%;
+  transition: 1s;
+}
+.mini1 {
+  left: 10%;
+}
+.mini2 {
+  left: 80%;
+}
+
+.mini1:hover,
+.mini2:hover {
+  scale: 1.2;
+}
+
+.description {
+  margin: 0;
+  padding: 0;
+  width: 40%;
+  position: relative;
+  top: 10%;
+  left: 30%;
+  font-size: 25px;
+  transition: 1.2s;
+}
+
+.description:hover {
+  scale: 1.2;
+}
+
+.details {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 350%;
+}
+
 .headerContact {
   position: absolute;
-  top: 260%;
+  top: 30%;
   left: 10%;
   color: rgb(69, 123, 157);
   font-size: 20px;
@@ -193,14 +257,14 @@ nav {
 }
 .touch {
   position: absolute;
-  top: 265%;
+  top: 35%;
   left: 10%;
   font-size: 30px;
   font-weight: bolder;
 }
 .email {
   position: absolute;
-  top: 275%;
+  top: 45%;
   left: 10%;
   font-size: 15px;
   font-weight: bolder;
@@ -208,7 +272,7 @@ nav {
 .linkedin,
 .github {
   position: absolute;
-  top: 285%;
+  top: 54%;
   left: 10%;
   width: 50px;
   height: 50px;
@@ -223,9 +287,10 @@ nav {
 }
 .copyright {
   position: absolute;
-  top: 295%;
+  top: 62%;
   left: 10%;
 }
+
 html {
   scroll-behavior: smooth;
 }
