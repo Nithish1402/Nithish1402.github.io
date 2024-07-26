@@ -226,3 +226,6 @@ nav {
   top: 295%;
   left: 10%;
 }
+html {
+  scroll-behavior: smooth;
+}
