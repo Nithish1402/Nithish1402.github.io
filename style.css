@@ -1,0 +1,228 @@
+body {
+  background-color: rgb(235, 254, 255);
+  overflow-x: hidden;
+  direction: ltr;
+}
+
+.name {
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.infoUl,
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.home,
+.skill,
+.about,
+.project,
+.contact {
+  font-size: 25px;
+  padding-right: 75px;
+  color: gray;
+  transition: 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+}
+.home:hover,
+.skill:hover,
+.about:hover,
+.project:hover,
+.contact:hover {
+  color: black;
+  scale: 1.2;
+}
+
+.content {
+  margin-top: 205px;
+  margin-left: 150px;
+  width: 700px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.greeting {
+  color: rgb(69, 123, 157);
+  font-size: 25px;
+  margin: 0;
+}
+.fullName {
+  color: black;
+  font-weight: bolder;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.role {
+  margin-top: 10px;
+  font-size: 20 px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 0;
+  color: rgb(46, 45, 45);
+}
+.downloadCv,
+.exploreMore {
+  width: 200px;
+  height: 71px;
+  background-color: rgb(69, 123, 157);
+  border: solid 0px;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  transform: 0.5s;
+}
+.downloadCv:active,
+.exploreMore:active {
+  background-color: black;
+}
+
+.cv {
+  padding-top: 10px;
+  padding-left: 5px;
+  font-size: 16px;
+}
+
+.cloudimg {
+  width: 0.8cm;
+  height: 0.8cm;
+  position: absolute;
+  left: 22%;
+  top: 79%;
+}
+.exploreMore {
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 0.1px;
+  border-radius: 5px;
+  top: 76%;
+}
+.explore {
+  padding-top: 5px;
+  padding-left: 38px;
+  font-size: 20px;
+}
+.photo {
+  position: absolute;
+  left: 70%;
+  top: 35%;
+}
+.manPhoto1 {
+  width: 350px;
+  height: 300px;
+  scale: 1.1;
+}
+.aboutMe {
+  background-color: white;
+  width: 2500px;
+  height: 500px;
+  margin-top: 10px;
+  display: flex;
+  overflow-x: hidden;
+}
+.manPhoto2 {
+  position: absolute;
+  top: 120%;
+  left: 10%;
+  bottom: 25%;
+}
+.aboutMePhoto {
+  background-color: white;
+}
+.headerAbout,
+.headerAboutMe,
+.roleContent {
+  color: rgb(69, 123, 157);
+  font-size: 20px;
+  position: absolute;
+  top: 130%;
+  left: 50%;
+}
+
+.headerAboutMe {
+  top: 135%;
+  font-size: 25px;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+}
+.roleContent {
+  top: 145%;
+  color: gray;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.headerSkill,
+.headerQ {
+  position: absolute;
+  top: 210%;
+  left: 50%;
+  color: rgb(69, 123, 157);
+  font-size: 20px;
+}
+.headerQ {
+  top: 220%;
+  left: 44%;
+  font-size: 25px;
+  color: black;
+  font-weight: bolder;
+}
+.skillsPhoto {
+  position: absolute;
+  top: 235%;
+  left: 33%;
+}
+
+.headerContact {
+  position: absolute;
+  top: 260%;
+  left: 10%;
+  color: rgb(69, 123, 157);
+  font-size: 20px;
+  font-weight: bolder;
+}
+.touch {
+  position: absolute;
+  top: 265%;
+  left: 10%;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.email {
+  position: absolute;
+  top: 275%;
+  left: 10%;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.linkedin,
+.github {
+  position: absolute;
+  top: 285%;
+  left: 10%;
+  width: 50px;
+  height: 50px;
+  transition: 0.5s;
+}
+.github {
+  left: 18%;
+}
+.linkedin:hover,
+.github:hover {
+  scale: 1.5;
+}
+.copyright {
+  position: absolute;
+  top: 295%;
+  left: 10%;
+}
